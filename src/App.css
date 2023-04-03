@@ -11,6 +11,11 @@ body {
   border-radius: 1%;
   border-style: solid;
 }
+@media only screen and (max-width: 664px) {
+  .whiteBox {
+    margin: 10px;
+  }
+}
 
 .navbar {
   display: flex;
@@ -26,14 +31,21 @@ body {
   top: 0;
 }
 
-.title {
-  
-}
-
 .navButtons {
   margin: 10px;
   font-size: 20px;
 }
+
+.navButtons a {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+}
+
+.navButtons a:hover {
+  text-decoration: none;
+  color: rgb(123, 123, 255)
+}
+
 
 /* About me section */
 
@@ -41,6 +53,8 @@ body {
   margin-bottom: 10%;
   margin-left: 5%;
   margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .namePic {
@@ -165,8 +179,27 @@ body {
   margin-right: 5%;
 }
 
-.imgSize {
+.imgSizeRight {
   height: 150px;
+  border-style: solid;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.imgSizeLeft {
+  height: 150px;
+  border-style: solid;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.imgSizeRight:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.imgSizeLeft:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 
 .proj1 {
@@ -193,6 +226,15 @@ body {
   margin-bottom: 3%;
 }
 
+.githubProject {
+  height: 70px;
+}
+
+.githubProject:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
 /* Contact */
 
 .contact {
@@ -217,3 +259,71 @@ body {
 	-webkit-text-fill-color: white;
 }
 
+
+
+@media only screen and (max-width: 664px) {
+  .outline {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .navbar {
+    padding: 10px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .navButtons {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .mypic {
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .logo {
+    height: 46px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .logoMargin {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .logoMargin img {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .imgSizeRight {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .imgSizeLeft {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .githubProject {
+    height: 45px;
+  }
+}

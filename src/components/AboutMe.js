@@ -25,15 +25,19 @@ function Aboutme() {
                         Full Stack Web Developer with a certification from UNC Chapel Hill Coding Bootcamp. Effective at combining creativity and problem solving to develop user-friendly applications. Based in Burlington, NC 📍
                     </p>
                     <div>
-                        <img className='logo' src={linkedin} alt="linkedin logo" />
-                        <img className='logo' src={github} alt="github logo" />
+                        <a href='https://www.linkedin.com/in/miguel-rivera-vega-27a105266/'>
+                            <img className='logo' src={linkedin} alt="linkedin logo" />
+                        </a>
+                        <a href='https://github.com/VegaMiguel9'>
+                            <img className='logo' src={github} alt="github logo" />
+                        </a>
                     </div>
                 </div>    
                 <img className='mypic' src={myPic} alt="Picture of me" />
                 
             </div>
 
-            <div className='Tech'>
+            <div className='Tech' id='tech'>
                 <h1 className='outline'>Tech Used</h1>
                 <div className='techLogos'>
                     <div className='logoMargin'>
