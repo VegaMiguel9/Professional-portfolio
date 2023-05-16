@@ -1,10 +1,8 @@
 {
   "files": {
     "main.css": "/Professional-portfolio/static/css/main.d57d923b.css",
-    "main.js": "/Professional-portfolio/static/js/main.bc568238.js",
-    "static/media/IMG_8237.jpg": "/Professional-portfolio/static/media/IMG_8237.1a096ff594e74a3923d2.jpg",
+    "main.js": "/Professional-portfolio/static/js/main.229149b6.js",
     "static/media/Project-one.png": "/Professional-portfolio/static/media/Project-one.12f1abf06c5b4b0b5991.png",
-    "static/media/weather-api-screenshot.png": "/Professional-portfolio/static/media/weather-api-screenshot.63d51a27d0da6061bb9d.png",
     "static/media/CSS.png": "/Professional-portfolio/static/media/CSS.b057a8af490b85ce89b6.png",
     "static/media/Todo-List.png": "/Professional-portfolio/static/media/Todo-List.a5efba7c350c8eeaf758.png",
     "static/media/mern-book.png": "/Professional-portfolio/static/media/mern-book.ce85e14742b5fc9a6f92.png",
@@ -13,15 +11,16 @@
     "static/media/jquery.png": "/Professional-portfolio/static/media/jquery.70376e3bf2da028fd6c5.png",
     "static/media/mysql.png": "/Professional-portfolio/static/media/mysql.37ec008309d26b56ed3e.png",
     "static/media/SQL.jpeg": "/Professional-portfolio/static/media/SQL.e7f2a4c60d4052c19ddb.jpeg",
+    "static/media/IMG_8420.jpeg": "/Professional-portfolio/static/media/IMG_8420.42ee8e4e7e1340995348.jpeg",
     "static/media/bootstrap.png": "/Professional-portfolio/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/HTML5.png": "/Professional-portfolio/static/media/HTML5.9c4321d487b0cde91e17.png",
     "static/media/JavaScript.png": "/Professional-portfolio/static/media/JavaScript.266bd9fb2663dcc057b4.png",
     "index.html": "/Professional-portfolio/index.html",
     "main.d57d923b.css.map": "/Professional-portfolio/static/css/main.d57d923b.css.map",
-    "main.bc568238.js.map": "/Professional-portfolio/static/js/main.bc568238.js.map"
+    "main.229149b6.js.map": "/Professional-portfolio/static/js/main.229149b6.js.map"
   },
   "entrypoints": [
     "static/css/main.d57d923b.css",
-    "static/js/main.bc568238.js"
+    "static/js/main.229149b6.js"
   ]
 }
