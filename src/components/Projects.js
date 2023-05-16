@@ -1,5 +1,5 @@
 import React from 'react'
-import weatherApi from '../imgs/weather-api-screenshot.png'
+import SQLemployee from '../imgs/Employee-SQL.jpeg'
 import projectOne from '../imgs/Project-one.png'
 import mernBook from '../imgs/mern-book.png'
 import todoList from '../imgs/Todo-List.png'
@@ -10,12 +10,12 @@ function Projects() {
     <div className='projects' id='Projects'>
         <h1 className='outline'>Projects</h1>
         <div className='proj1'>
-            <a href='https://vegamiguel9.github.io/weather-API/'>
-                <img className='imgSizeRight' src={weatherApi} alt='weather api website screenshot' />
+            <a>
+                <img className='imgSizeRight' src={SQLemployee} alt='eployee mysql database screenshot' />
             </a>
             <div>
-                <p> In this website you are able to search for the weather, have the weather show for the following week, and use local storage to save the cities you have searched. To make this website I used HTML, CSS, and JavaScript. I am able to get weather data by using a weather API from the open weather map website. </p>
-                <a href='https://github.com/VegaMiguel9/weather-API'>
+                <p> This project test my skills with using MYSQL. I created a mysql employee database where you can add, edit, and view departments, employees, and the employee roll. Besides mysql, I also used inquirer, console.table, dotenv, and mysql2. </p>
+                <a href='https://github.com/VegaMiguel9/SQL-Employee-Tracker'>
                     <img className='githubProject' src={github} alt='github logo' />    
                 </a>
             </div>
